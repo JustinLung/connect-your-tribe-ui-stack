@@ -11,9 +11,11 @@ Deze repo laat verschillende schetsen zien voor de UI stack van mijn visitekaart
 - Error State
 
 ## ✍️ Breakdown & Wireflow Schetsen
+![Empty state](https://github.com/JustinLung/connect-your-tribe-ui-stack/blob/main/docs/empty-state.png?raw=true)
+![Error state](https://github.com/JustinLung/connect-your-tribe-ui-stack/blob/main/docs/error-state.png?raw=true)
+![Loading State](https://github.com/JustinLung/connect-your-tribe-ui-stack/blob/main/docs/loading-state.png?raw=true)
 
-
-## Code
+## 💻 Code
 
 <!-- Leg de code uit die je gebruikt om de verschillende states van de UI-Stack te tonen -->
 
