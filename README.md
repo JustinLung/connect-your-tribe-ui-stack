@@ -33,15 +33,18 @@ JavaScript
 
 ```js
 async function getMember() {
-  try {
-    preloader();
-    const req = await fetch(`${API_URL}/member`);
-    const member = await req.json();
-    render(member);
-  } catch (err) {
-    error();
-    throw new Error(err);
-  }
+    try {
+        const res = await fetch(`${API_URL}/member`)
+        if(res.ok === true) {
+            hidePreloader();
+        }
+        const member = await res.json()
+        render(member)
+    }
+    catch (err) {
+        error();
+        throw new Error(err);
+    }
 }
 ```
 
